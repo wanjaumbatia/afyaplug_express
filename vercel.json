@@ -1,0 +1,12 @@
+{
+    "version": 2,
+    "name": "afyaplug",
+    "routes": [     
+      {
+        "src": "/(.*)",
+        "dest": "/index.js"
+      }
+    ],
+    "rewrites": [{ "source": "/(.*)", "destination": "/api" }]
+  }
+  
